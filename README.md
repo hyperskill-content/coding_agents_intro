@@ -4,9 +4,12 @@ This is the hands-on part of the talk. You build a small coding agent in Python,
 
 The agent you build works with any OpenAI-compatible chat completions API and uses only the Python standard library, so each version fits on a screen or two.
 
+Slides: [coding_agents.pdf](coding_agents.pdf)
+
 ## Repository layout
 
 ```
+coding_agents.pdf      the slides
 specs/                 the seven steps: a prompt for your coding agent, then things to try and notice
 reference/             a working version of each step, in case you fall behind
 demo/                  a tiny project for your agent to work on (it contains a planted prompt injection, see spec 5)
