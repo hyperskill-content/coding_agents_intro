@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+
+# Created during the workshop
+playground/
+.agent_audit.jsonl
+env_check.txt

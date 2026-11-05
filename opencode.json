@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "workshop": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Workshop",
+      "options": {
+        "baseURL": "{env:OPENAI_BASE_URL}",
+        "apiKey": "{env:OPENAI_API_KEY}"
+      },
+      "models": {
+        "MODEL_ID": { "name": "Workshop model" }
+      }
+    }
+  },
+  "model": "workshop/MODEL_ID",
+  "permission": {
+    "edit": "allow",
+    "bash": {
+      "*": "ask",
+      "ls *": "allow"
+    }
+  }
+}
